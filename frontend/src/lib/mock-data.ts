@@ -5,16 +5,16 @@ import { TopDeck, CardTrend, MatchupData, MetaHealthMetric, MetaTrend } from "./
 
 // Data for TopDecksPanel
 export const mockTopDecks: TopDeck[] = [
-  { name: "Charizard ex", archetype: "Fire", winRate: 62.5, spriteUrl: "/placeholders/charizard.png" },
-  { name: "Lost Box", archetype: "Grass/Dark", winRate: 58.2, spriteUrl: "/placeholders/comfey.png" },
-  { name: "Lugia VSTAR", archetype: "Colorless", winRate: 55.1, spriteUrl: "/placeholders/lugia.png" },
-  { name: "Gardevoir ex", archetype: "Psychic", winRate: 53.9, spriteUrl: "/placeholders/gardevoir.png" },
-  { name: "Chien-Pao ex", archetype: "Water", winRate: 51.8, spriteUrl: "/placeholders/chienpao.png" },
-  { name: "Miraidon ex", archetype: "Lightning", winRate: 50.3, spriteUrl: "/placeholders/miraidon.png" },
-  { name: "Arceus VSTAR", archetype: "Colorless", winRate: 49.7, spriteUrl: "/placeholders/arceus.png" },
-  { name: "Snorlax Stall", archetype: "Colorless", winRate: 48.5, spriteUrl: "/placeholders/snorlax.png" },
-  { name: "Iron Hands ex", archetype: "Lightning", winRate: 47.2, spriteUrl: "/placeholders/ironhands.png" },
-  { name: "Rapid Strike Urshifu VMAX", archetype: "Fighting", winRate: 46.1, spriteUrl: "/placeholders/urshifu.png" },
+  { name: "Charizard ex", archetype: "Fire", winRate: 62.5, spriteUrl: "https://img.pokemondb.net/sprites/scarlet-violet/normal/charizard.png" },
+  { name: "Lost Box", archetype: "Grass/Dark", winRate: 58.2, spriteUrl: "https://img.pokemondb.net/sprites/scarlet-violet/normal/comfey.png" },
+  { name: "Lugia VSTAR", archetype: "Colorless", winRate: 55.1, spriteUrl: "https://img.pokemondb.net/sprites/scarlet-violet/normal/lugia.png" },
+  { name: "Gardevoir ex", archetype: "Psychic", winRate: 53.9, spriteUrl: "https://img.pokemondb.net/sprites/scarlet-violet/normal/gardevoir.png" },
+  { name: "Chien-Pao ex", archetype: "Water", winRate: 51.8, spriteUrl: "https://img.pokemondb.net/sprites/scarlet-violet/normal/chien-pao.png" },
+  { name: "Miraidon ex", archetype: "Lightning", winRate: 50.3, spriteUrl: "https://img.pokemondb.net/sprites/scarlet-violet/normal/miraidon.png" },
+  { name: "Arceus VSTAR", archetype: "Colorless", winRate: 49.7, spriteUrl: "https://img.pokemondb.net/sprites/scarlet-violet/normal/arceus.png" },
+  { name: "Snorlax Stall", archetype: "Colorless", winRate: 48.5, spriteUrl: "https://img.pokemondb.net/sprites/scarlet-violet/normal/snorlax.png" },
+  { name: "Iron Hands ex", archetype: "Lightning", winRate: 47.2, spriteUrl: "https://img.pokemondb.net/sprites/scarlet-violet/normal/iron-hands.png" },
+  { name: "Rapid Strike Urshifu VMAX", archetype: "Fighting", winRate: 46.1, spriteUrl: "https://img.pokemondb.net/sprites/sword-shield/normal/urshifu.png" },
 ];
 
 // Data for IndividualCardReportPanel
