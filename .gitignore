@@ -24,3 +24,15 @@ Thumbs.db
 
 # Environment variables
 .env
+.env.*
+!.env.example
+!.env.template
+*.env
+*.env.*
+env.js
+env.json
+secrets.json
+secrets.yml
+secrets.yaml
+*key.json
+*secret*.json
