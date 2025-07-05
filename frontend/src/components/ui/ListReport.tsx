@@ -2,7 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-import imageLoader from "@/lib/image-loader";
 
 interface ListItem {
   id: string | number;
@@ -35,7 +34,6 @@ export function ListReport({ headerLeft, headerRight, items }: ListReportProps) 
               width={24}
               height={24}
               className="rounded-full"
-              loader={imageLoader}
             />
           ) : (
             <div style={{ width: 24 }}></div> // Placeholder for alignment
